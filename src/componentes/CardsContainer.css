@@ -1,0 +1,22 @@
+
+.cards-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    box-sizing:border-box;
+    flex-direction: row;
+    gap: 20px; /* Espacio entre las cards */
+    padding: 20px;
+    margin: 0 auto; /* Centrar horizontalmente */
+    max-width: 1100px; /* Ancho máximo del contenedor */
+    min-width: 410px;
+  }
+  /*
+  .card{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    -webkit-justify-content:center;
+    max-width:820px;
+}    
+*/
